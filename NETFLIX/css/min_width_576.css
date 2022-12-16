@@ -1,0 +1,98 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+.header .back-image {
+   height: auto;
+}
+
+.header .back-image .content {
+   padding: 50px 0px;
+   width: 90%;
+}
+
+.header .back-image .content input {
+   height: 60px;
+   width: 470px;
+   font-size: 20px;
+}
+
+
+.container1 {
+   display: flex;
+   flex-direction: column;
+   height: 600px;
+}
+.container1 .image1 .video-1{
+   position: relative;
+   height: 252px;
+   width: 352px;
+}
+.container1 .image1 img{
+   position: absolute;
+    height: 292px;
+    width: 363px;
+    z-index: 1;
+}
+
+
+.container2 {
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   height: auto;
+}
+.container2 img{
+   width: 100%;
+}
+
+
+.container3 {
+   display: flex;
+   flex-direction: column;
+   height: 600px;
+}
+.container3 .tv-info3{
+   padding: 30px;
+}
+.container3 .image3{
+   margin-top: 50px;
+}
+.container3 .image3 .video-3{
+    height: 146px;
+    width: 347px;
+    padding-left: 0px;
+}
+.container3 .image3 img{
+   /* width: 501px; */
+   height: 310px;
+   margin: -34px;
+}
+
+.container4 {
+   display: flex;
+   flex-direction: column;
+   width: 100%;
+   height: auto;
+}
+.container4 .tv-info4{
+   padding: 30px;
+}
+.container4 img{
+   width: 100%;
+}
+
+.container5{
+   width: 100%;
+   height: 900px;
+   background-color: black;
+   border-top: 10px solid grey;
+   font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+}
+
+.que li{
+   padding: 15px 30px;
+   width: 70%;
+}
